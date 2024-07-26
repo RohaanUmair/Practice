@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f9;
+    padding: 40px 40px;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.box input{
+    margin-top: 10px;
+    height: 0.7cm;
+    width: 90%;
+}
+
+.box button{
+    margin-top: 10px;
+    width: 90%;
+    height: 0.8cm;
+    background-color: hsl(197, 100%, 60%);
+    border: none;
+    border-radius: 2px;
+    transition: all 0.1s linear;
+}
+.box button:hover{
+    cursor: pointer;
+    background-color: hsl(197, 100%, 70%);
+}
+.box button:active{
+    background-color: hsl(197, 100%, 40%);
+    transform: scale(0.9);
+}
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.like i{
+    font-size: 20px;
+    color: gray;
+    z-index: 9;
+}
+.like i:hover{
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    height: 304px;
+    flex-direction: column;
+    border: 1px solid;
+    margin-block: 4px;
+    width: 280px;
+}
